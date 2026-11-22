@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+
+# Build
+dist/
+dist-ssr/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Music files
+public/music/
+src/assets/music/
+public/audio/
+src/assets/audio/
+
+# Music metadata / playlists
+public/music-data/
+src/data/music/
+src/data/tracks/
+src/data/playlists/
+
+# Local music configuration
+src/config/music.local.*
+public/music.json
+public/tracks.json
+public/playlists.json
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Temporary copyrighted music and metadata
+public/tracks/
+src/data/tracks.ts
